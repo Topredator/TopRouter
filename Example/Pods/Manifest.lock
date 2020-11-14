@@ -1,0 +1,16 @@
+PODS:
+  - TopRouter (0.1.0)
+
+DEPENDENCIES:
+  - TopRouter (from `../`)
+
+EXTERNAL SOURCES:
+  TopRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TopRouter: 6363a1f48b8722cd73f6ecde496bd0768617dc90
+
+PODFILE CHECKSUM: 342fecf1f891fdf36985fff22f4ea9c8da8be50a
+
+COCOAPODS: 1.10.0
