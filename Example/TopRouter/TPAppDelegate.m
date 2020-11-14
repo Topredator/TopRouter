@@ -7,12 +7,21 @@
 //
 
 #import "TPAppDelegate.h"
+#import "TPViewController.h"
+
 
 @implementation TPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = UIColor.whiteColor;
+    TPViewController *vc = [TPViewController new];
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
+    navi.navigationBar.translucent = NO;
+    self.window.rootViewController = navi;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

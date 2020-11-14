@@ -1,0 +1,6 @@
+framework module TPUIKit {
+  umbrella header "TPUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
